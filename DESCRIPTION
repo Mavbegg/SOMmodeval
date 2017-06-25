@@ -1,0 +1,14 @@
+Package: SOMmodeval
+Type: Package
+Title: Model Evaluation Statistics for Soil Organic Matter Turnover Models
+Version: 0.0.0.9000
+Authors@R: person("Marvin", "Beckert", email = "m.beckert@abdn.ac.uk",
+                  role = c("aut", "cre"))
+Description: This packahe is a port from the MODEVAL excel spreadsheet for model evaluation by Smith& Smith.
+    The package calculates the r value, RMSE,LOFIT,E,M.
+Depends: R (>= 3.1.0)
+License: GPL
+LazyData: true
+Imports: ggplot2
+RoxygenNote: 6.0.1
+Suggests: testthat
